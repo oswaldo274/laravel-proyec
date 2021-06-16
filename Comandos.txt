@@ -1,0 +1,9 @@
+comando para migrar-crear tablas : php artisan migrate
+ comando para borrar el ultimo cambio: php artisan migrate:rollback
+comando para crear controladores : php artisan make:controller nombre de controlador
+comando para crear archivo de migracion: php artisan make:migration nombre
+comando para crear archivo de migracion-con ayuda para crear tablas: php artisan make:migration create_curso_table
+comando para borrar lastablas y vuelve a  crear todas las tablas: php artisan migrate:fresh
+comando para ejecuta el metodo down(a diferencia de un delete en sql) y vuelve a crear todas las tablas: php artisan migrate:refresh
+comando para crear el archivo para agregar campos a una tabla:php artisan make:migration descripcion_to_user_table
+comando para agregar dependecia para ayudarnos a modificar el diseño de las tablas de sql: composer require doctrine/dbal
