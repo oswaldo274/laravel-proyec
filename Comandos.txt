@@ -7,3 +7,6 @@ comando para borrar lastablas y vuelve a  crear todas las tablas: php artisan mi
 comando para ejecuta el metodo down(a diferencia de un delete en sql) y vuelve a crear todas las tablas: php artisan migrate:refresh
 comando para crear el archivo para agregar campos a una tabla:php artisan make:migration descripcion_to_user_table
 comando para agregar dependecia para ayudarnos a modificar el diseño de las tablas de sql: composer require doctrine/dbal
+comando para crear modelos:php artisan make:model nombre
+vomando para abrir tinker:php artisan tinke
+////comando tinker para crear objetos: use App\Models\nombre;/// instanciamos:$curso = new Curso;//asignamos valor: $curso->name='laravel'//$curso->save();(Nota: es cofigo php metido desde tinker no comandos)
