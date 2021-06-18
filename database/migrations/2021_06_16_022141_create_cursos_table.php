@@ -17,6 +17,7 @@ class CreateCursosTable extends Migration
             $table->id();
             $table->string('nombre');//maximo 255 caracteres
             $table->text('descripcion');//mas der 255 caracteres
+            $table->text('categoria');
             $table->timestamps();
         });
     }

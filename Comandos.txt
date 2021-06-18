@@ -10,3 +10,6 @@ comando para agregar dependecia para ayudarnos a modificar el diseño de las tab
 comando para crear modelos:php artisan make:model nombre
 vomando para abrir tinker:php artisan tinke
 ////comando tinker para crear objetos: use App\Models\nombre;/// instanciamos:$curso = new Curso;//asignamos valor: $curso->name='laravel'//$curso->save();(Nota: es cofigo php metido desde tinker no comandos)
+comando para eliminar todas las tablas creadas:php artisan migrate:reset
+comando para agregar registros desde el archivo seeders: php artisan db:seed
+comando para crear un seeder:php artisan make:seeder CursoSeeder
